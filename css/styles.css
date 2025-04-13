@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,
+p,
+a {
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+main {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.social-card {
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.social-card .avatar {
+    border-radius: 50%;
+    width: auto;
+    height: 80px;
+}
+
+.social-card h2 {
+    margin-top: 1.5rem;
+}
+
+.social-card .region {
+    margin-top: .6rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.social-card .description {
+    margin-top: 1.5rem;
+}
+
+.social-card .social-medias {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.social-medias li {
+    background-color: hsl(0, 0%, 20%);
+    padding: .7rem 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-medias li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.social-medias li:hover a {
+    color: hsl(0, 0%, 12%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
